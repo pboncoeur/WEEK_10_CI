@@ -8,7 +8,7 @@ class TestAddFunction(unittest.TestCase):
         self.assertEqual(add(-1, 1), 0)
         self.assertEqual(add(10, 5), 15)
 
-    def test_add(self):
+    def test_mult(self):
         self.assertEqual(mult(2, 3), 6)
         self.assertEqual(mult(-1, 1), -1)
         self.assertEqual(mult(10, 5), 50)
